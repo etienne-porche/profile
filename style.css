@@ -1,0 +1,97 @@
+
+body {
+  background-color: http://colorzilla.com/gradient-editor/#a9ebf7+0,0fcae7+100 */
+  background: -webkit-linear-gradient(top, #17EAD9 0%,#6078EA 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #17EAD9 0%,#6078EA 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  font-size: 17px;
+  color: rgb(20, 20, 20);
+  line-height: 24px;
+}
+
+
+h1,h2,h3 {
+  font-family: 'Avenir', sans-serif;
+  font-color: rgb(68, 79, 90);
+}
+
+h1 {
+font-size: 40px;
+}
+
+h2 {
+font-size: 32px;
+}
+
+h3 {
+font-size: 26px;
+}
+
+img {
+  height: 20em ;
+  width: 16em ;
+}
+
+a {
+  text-decoration: none;
+  color : rgb(20, 20, 20);
+}
+
+a:hover {
+  text-decoration: none;
+  color : rgb(200, 200, 200);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.shadowed {
+  box-shadow: 1px 1px 1px rgb(210, 210, 210);
+}
+
+.inline li {
+  display: inline-block;
+  text-align: center;
+  margin-left: 0px;
+}
+
+
+@media (max-width: 2200px) {
+  .card {
+  text-align: center;
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 500px;        /* Set the width */
+  margin: 0 auto;       /* OR subtle border */
+  }
+}
+
+
+@media (max-width: 500px) {
+  .card {
+  text-align: center;
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 220px;        /* Set the width */
+  margin: 0 auto;       /* OR subtle border */
+  }
+}
+
+.card table {
+text-align: center;
+width : 0 auto;
+margin: 0 auto;       /* OR subtle border */
+}
+
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+}
